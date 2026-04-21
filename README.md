@@ -246,7 +246,7 @@ Pitch-deck review and publishing-readiness feedback.
 
 ---
 
-### 16. design-red-team-audit
+### 17. design-red-team-audit
 **What it does:**
 Performs an adversarial design pre-mortem that assumes a feature, system, pitch, or roadmap idea fails, then identifies the most credible mechanisms of failure.
 

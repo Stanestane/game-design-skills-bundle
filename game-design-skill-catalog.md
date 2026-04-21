@@ -20,6 +20,9 @@ Audit what kinds of motivation a design creates: reward-driven, status-driven, v
 ### game-design-player-need-satisfaction-audit
 Audit whether a design satisfies or denies autonomy, competence, and relatedness. Good for spotting emotionally nourishing versus quietly depleting systems.
 
+### game-design-bartle-archetype-audit
+Audit a feature or system through the lens of Achievers, Explorers, Socializers, and Killers to understand which player archetypes it serves, neglects, or harms.
+
 ## Prototyping / uncertainty
 
 ### game-design-unknown-unknowns-prototyping
