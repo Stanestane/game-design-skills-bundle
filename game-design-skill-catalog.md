@@ -56,6 +56,11 @@ Compare candidate options by impact, cost, risk, fit, and timing to decide what 
 ### game-design-ftue-hero-journey-audit
 Audit FTUE and onboarding flows through the Hero's Journey lens: call to adventure, mentor, threshold crossing, early autonomy, and first-session emotional connection.
 
+## Session structure / retention audits
+
+### game-design-goal-density-and-immediacy-audit
+Audit a game or feature for goal density, immediacy of goals, short/mid/long-term goal breakdown, safe stopping points, and return triggers.
+
 ## Pitch / publishing audits
 
 ### game-design-pitch-deck-audit

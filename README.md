@@ -230,9 +230,26 @@ FTUE, onboarding, and first-session retention review.
 
 ---
 
+## Session structure / retention
+
+### 15. game-design-goal-density-and-immediacy-audit
+**What it does:**
+Audits a game, feature, or metagame layer for goal density, goal immediacy, short/mid/long-term goal spread, safe session closure, and return triggers.
+
+**Use it when:**
+- players return and do not know what to do next
+- a game feels aimless, overwhelming, or brittle across session lengths
+- you want to evaluate how well the design fits fragmented player time
+- you need a structured breakdown of short-term, mid-term, and long-term goals
+
+**Best for:**
+Session structure, return-player experience, and retention-oriented goal design.
+
+---
+
 ## Publishing / pitch support
 
-### 15. game-design-pitch-deck-audit
+### 16. game-design-pitch-deck-audit
 **What it does:**
 Audits a game pitch deck for structure, clarity, persuasiveness, readability, business-case completeness, and publisher-fit.
 
@@ -282,6 +299,7 @@ If you are not sure where to begin:
 - emotionally flat idea -> `game-design-emotional-canvas`
 - suspicious engagement loop -> `game-design-player-motivation-audit`
 - weak onboarding -> `game-design-ftue-hero-journey-audit`
+- unclear session structure -> `game-design-goal-density-and-immediacy-audit`
 - stale discussion -> `game-design-creative-unblocker`
 - unclear prototype needs -> `game-design-unknown-unknowns-prototyping`
 - upcoming publisher conversation -> `game-design-pitch-deck-audit`
