@@ -63,6 +63,11 @@ Audit a game pitch deck for structure, clarity, dream-versus-proof balance, busi
 ### game-design-creative-unblocker
 Use oblique prompts, sideways reframing, and playful provocations to break creative block and generate weird-but-useful next directions.
 
+## Adversarial / red-team audits
+
+### design-red-team-audit
+Perform a hostile-but-constructive pre-mortem on a feature, system, pitch, or roadmap idea by assuming failure and identifying the most credible ways it breaks.
+
 ## Suggested ways to combine them
 
 - **Need clarity first** -> `game-design-goal-framing`
