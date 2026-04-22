@@ -13,12 +13,12 @@ This repository collects a set of practical design skills covering:
 
 These skills are designed to be used either:
 - as installed skill folders in an OpenClaw workspace, or
-- as packaged `.skill` files from the `packaged-skills/` folder.
+- as packaged `.skill` files from the `package-skills/` folder.
 
 ## Repository structure
 
 - `game-design-*/` - individual skill folders
-- `packaged-skills/` - packaged distributable `.skill` files
+- `package-skills/` - packaged distributable `.skill` files
 - `game-design-skill-catalog.md` - compact local catalog/index
 
 ## Skills
@@ -277,13 +277,83 @@ Pre-mortems, risk exposure, and hard design challenge sessions.
 
 ---
 
+### 18. game-design-prototyping-companion
+**What it does:**
+Tracks prototype branches, dead ends, parked ideas, and next experiments, and can support simple branch-map visualization workflows.
+
+**Use it when:**
+- a prototype creates multiple follow-up paths
+- you want to preserve design learning across branches
+- the team needs a structured record of what was tried, learned, chosen, or parked
+
+**Best for:**
+Prototype logging, branch tracking, and experiment continuity.
+
+---
+
+### 19. game-design-brainstorm-methods
+**What it does:**
+Applies named brainstorming methods such as SCAMPER, How Might We, Crazy 8s, Six Thinking Hats, Brainwriting 6-3-5, Worst Possible Idea, Lotus Blossom, forced connections, and morphological matrix to game design problems.
+
+**Use it when:**
+- the team wants method-driven ideation instead of generic brainstorming
+- you need the right brainstorming framework for the problem
+- you want ideation that ends in a shortlist or next move
+
+**Best for:**
+Structured ideation and facilitated brainstorming.
+
+---
+
+### 20. game-design-one-thing-to-remove
+**What it does:**
+Identifies the single highest-leverage thing to remove from a design in order to improve clarity, focus, pacing, emotional fit, or production sustainability.
+
+**Use it when:**
+- a feature feels bloated or overengineered
+- a system has too much friction or redundant complexity
+- you want a subtractive critique rather than another additive brainstorm
+
+**Best for:**
+Subtractive design audits and elegance-through-removal decisions.
+
+---
+
+### 21. game-design-novelty-spectrum-audit
+**What it does:**
+Evaluates a concept on the spectrum between too familiar and too novel using player expectations, mental models, and innovation pattern diagnosis.
+
+**Use it when:**
+- you want to know whether a concept is too derivative or too risky
+- you need to assess familiarity anchors versus real novelty
+- you want to classify innovation as incremental, recombinational, simplifying, or more radical
+
+**Best for:**
+Novelty positioning, concept differentiation, and expectation-risk analysis.
+
+---
+
+### 22. game-design-systematizing-empathizing-audit
+**What it does:**
+Positions a design on two axes — systematizing and empathizing — then infers likely player/persona appeal, likely rejection patterns, and the practical consequences of that positioning.
+
+**Use it when:**
+- you want to understand whether a design is logic-driven, emotionally player-attuned, or both
+- you want to know what kind of player this design is really for
+- you need a structural-emotional positioning read without assuming one quadrant is ideal
+
+**Best for:**
+Audience-fit diagnostics, structural-emotional positioning, and persona-oriented feature evaluation.
+
+---
+
 ## How to use
 
 ### In OpenClaw
 Place the skill folders in your workspace `skills/` directory.
 
 ### As packaged files
-Use the `.skill` archives from `packaged-skills/` for sharing or installation.
+Use the `.skill` archives from `package-skills/` for sharing or installation.
 
 ## Notes
 
@@ -303,3 +373,7 @@ If you are not sure where to begin:
 - stale discussion -> `game-design-creative-unblocker`
 - unclear prototype needs -> `game-design-unknown-unknowns-prototyping`
 - upcoming publisher conversation -> `game-design-pitch-deck-audit`
+- need structured brainstorming methods -> `game-design-brainstorm-methods`
+- suspect the best improvement is subtraction -> `game-design-one-thing-to-remove`
+- not sure if the concept is too familiar or too novel -> `game-design-novelty-spectrum-audit`
+- want to understand who the design emotionally/structurally appeals to -> `game-design-systematizing-empathizing-audit`
