@@ -1,6 +1,6 @@
 ---
 name: game-design-bartle-archetype-audit
-description: Audit a game, feature, event, progression system, social system, live-ops loop, or onboarding flow through the lens of Bartle player archetypes: Achievers, Explorers, Socializers, and Killers. Use when evaluating who a design motivates, who it neglects, whether a feature over-serves one archetype at the expense of others, how a system will be perceived by different motivational player types, or why engagement is uneven across different player motivations.
+description: "Audit a game, feature, event, progression system, social system, live-ops loop, or onboarding flow through the lens of Bartle player archetypes: Achievers, Explorers, Socializers, and Killers. Use when evaluating who a design motivates, who it neglects, whether a feature over-serves one archetype at the expense of others, how a system will be perceived by different motivational player types, or why engagement is uneven across different player motivations."
 ---
 
 # Game Design Bartle Archetype Audit

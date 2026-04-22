@@ -1,0 +1,57 @@
+{
+  "title": "Request Board Prototype Evolution",
+  "nodes": [
+    {
+      "id": "P0",
+      "label": "Basic request board",
+      "state": "baseline",
+      "note": "Clear but emotionally flat"
+    },
+    {
+      "id": "P1",
+      "label": "Grouped by urgency",
+      "state": "parked",
+      "note": "Improved scannability but still low tension"
+    },
+    {
+      "id": "P2",
+      "label": "Conflicting requests",
+      "state": "promising",
+      "note": "Created meaningful tradeoffs"
+    },
+    {
+      "id": "P3",
+      "label": "Fully diegetic world requests",
+      "state": "branch-trigger",
+      "note": "Revealed a stronger direction outside the board itself"
+    },
+    {
+      "id": "P4",
+      "label": "Timer-heavy scarcity version",
+      "state": "dead-end",
+      "note": "Created pressure without meaningful choice"
+    }
+  ],
+  "edges": [
+    {
+      "from": "P0",
+      "to": "P1",
+      "label": "Increase readability"
+    },
+    {
+      "from": "P0",
+      "to": "P2",
+      "label": "Add tradeoffs"
+    },
+    {
+      "from": "P0",
+      "to": "P3",
+      "label": "What if the board disappears?"
+    },
+    {
+      "from": "P2",
+      "to": "P4",
+      "label": "Push urgency harder"
+    }
+  ]
+}

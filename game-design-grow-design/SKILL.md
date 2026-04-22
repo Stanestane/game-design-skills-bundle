@@ -1,6 +1,6 @@
 ---
 name: game-design-grow-design
-description: Evaluate game features, feature pitches, live-ops ideas, UX changes, economy changes, roadmap choices, retention initiatives, monetization initiatives, and ambiguous design problems using the GROW model: Goal, Reality, Options, Will. Use when a team needs structure, clearer decision-making, better option generation, explicit tradeoff analysis, or a concrete recommendation and next-step plan instead of circular discussion.
+description: "Evaluate game features, feature pitches, live-ops ideas, UX changes, economy changes, roadmap choices, retention initiatives, monetization initiatives, and ambiguous design problems using the GROW model: Goal, Reality, Options, Will. Use when a team needs structure, clearer decision-making, better option generation, explicit tradeoff analysis, or a concrete recommendation and next-step plan instead of circular discussion."
 ---
 
 # Game Design GROW Design
