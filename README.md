@@ -347,6 +347,48 @@ Audience-fit diagnostics, structural-emotional positioning, and persona-oriented
 
 ---
 
+### 23. game-design-kpi-coverage-audit
+**What it does:**
+Audits whether a feature is being judged fairly by the KPI framework around it, especially when connective tissue, UX, QoL, enabling work, or sustainability value are being undervalued because they are hard to measure directly.
+
+**Use it when:**
+- a feature has obvious design value but weak direct KPI attribution
+- the roadmap favors flashy self-contained systems over support work
+- the team may be neglecting foundational improvements because they are hard to justify cleanly
+
+**Best for:**
+KPI blind-spot diagnosis, roadmap fairness, and support-feature justification.
+
+---
+
+### 24. game-design-prototype-intent-audit
+**What it does:**
+Audits whether a prototype is meant to sell the idea or reveal unknowns, and whether its scope actually matches that purpose.
+
+**Use it when:**
+- a prototype plan feels vague or contradictory
+- the team may be building a demo while claiming it is for learning
+- precious prototype time is being spent on the wrong questions
+
+**Best for:**
+Prototype strategy, prototype-scoping, and demo-vs-learning clarity.
+
+---
+
+### 25. game-design-player-segment-perception-audit
+**What it does:**
+Audits how different player segments are likely to perceive a feature, update, or content drop, especially when the feature is aimed at one cohort but visible to many others.
+
+**Use it when:**
+- a feature is targeted at elder or niche players but broadly marketed
+- you want to know how new, mid, and elder players will read the same update differently
+- you need to catch disappointment caused by visibility-access mismatch
+
+**Best for:**
+Segment targeting, feature rollout messaging, and cross-cohort perception analysis.
+
+---
+
 ## How to use
 
 ### In OpenClaw
@@ -377,3 +419,6 @@ If you are not sure where to begin:
 - suspect the best improvement is subtraction -> `game-design-one-thing-to-remove`
 - not sure if the concept is too familiar or too novel -> `game-design-novelty-spectrum-audit`
 - want to understand who the design emotionally/structurally appeals to -> `game-design-systematizing-empathizing-audit`
+- suspect the KPI framing is undervaluing connective tissue or QoL work -> `game-design-kpi-coverage-audit`
+- unclear whether a prototype is for selling or learning -> `game-design-prototype-intent-audit`
+- worried different player cohorts will read the same feature differently -> `game-design-player-segment-perception-audit`
