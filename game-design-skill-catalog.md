@@ -15,6 +15,9 @@ Turn a rough game idea into a practical order of work for a solo dev, duo, or sm
 ### game-dev-team-gap
 Figure out which roles, skills, or disciplines are missing or weakly covered for a game concept and target milestone. Also works in minimum-team mode when no current team is described.
 
+### game-dev-budget-estimator
+Estimate likely budget ranges for a game concept based on scope, milestone, current team, work model, and geography. Also works in scenario mode when the team is unknown.
+
 ## General decision framework
 
 ### game-design-grow-design

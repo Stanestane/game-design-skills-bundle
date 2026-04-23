@@ -67,6 +67,27 @@ A practical skill for identifying missing roles, weak coverage, and the smallest
 
 ---
 
+### 0.75 game-dev-budget-estimator
+**What it does:**
+Helps a beginner or early-stage team estimate likely budget ranges for a game concept based on scope, team coverage, milestone, work model, and geography.
+
+**Use it when:**
+- someone asks how much a game like this might cost
+- the concept, team, and milestone are known but the budget picture is fuzzy
+- the team wants to understand what is already covered internally versus what still costs real money
+- no team has been described yet and the user wants scenario-based budget ranges
+
+**Best for:**
+Beginner-friendly budget framing, cost-driver diagnosis, and rough milestone-based game cost estimation.
+
+**Example prompt:**
+> We want to make a pitchable mobile F2P action game. We have one programmer in Serbia and one freelance 2D artist in Poland working part-time. What budget range should we expect for a vertical slice, what costs are already covered, and what hidden costs are we probably missing?
+
+**Short blurb:**
+A practical skill for turning a game concept, team, and scope into a rough budget range with transparent assumptions and cost drivers.
+
+---
+
 ### 1. game-design-emotional-canvas
 **What it does:**
 Defines the emotional core, atmosphere, tone, and vibe of a game, feature, event, world area, or content theme.
