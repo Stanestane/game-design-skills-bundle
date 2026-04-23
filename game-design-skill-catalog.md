@@ -92,6 +92,11 @@ Use oblique prompts, sideways reframing, and playful provocations to break creat
 ### design-red-team-audit
 Perform a hostile-but-constructive pre-mortem on a feature, system, pitch, or roadmap idea by assuming failure and identifying the most credible ways it breaks.
 
+## Project-adjacent collaboration analysis
+
+### software-team-conflict-patterns
+Analyze recurring conflict behavior on software or game projects by identifying likely collaboration patterns, project risks, and practical response strategies. Best for difficult teammate, stakeholder, lead, or founder situations where the real problem is recurring behavior rather than one isolated disagreement.
+
 ## Suggested ways to combine them
 
 - **Need clarity first** -> `game-design-goal-framing`

@@ -15,7 +15,7 @@ These skills are designed to be used either:
 - as installed skill folders in an OpenClaw workspace, or
 - as packaged `.skill` files from the `package-skills/` folder.
 
-They now also include a beginner-oriented planning skill for turning rough game concepts into sane first steps, prototype plans, or pitchable vertical-slice strategies.
+They now also include beginner-oriented planning skills for turning rough game concepts into sane first steps, team plans, and budget ranges, plus a project-adjacent collaboration skill for analyzing recurring conflict patterns on software teams.
 
 ## Repository structure
 
