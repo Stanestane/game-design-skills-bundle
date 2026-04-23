@@ -28,6 +28,11 @@ Audit a feature or system through the lens of Achievers, Explorers, Socializers,
 ### game-design-unknown-unknowns-prototyping
 Map uncertainty, identify hidden unknowns, and decide what should be prototyped before production commitment.
 
+## Beginner planning / first-step strategy
+
+### game-dev-first-steps
+Turn a rough game idea into a practical starting plan. Ask about team size, skill mix, platform, scope, and first milestone, then recommend what to build first, what to postpone, and how to avoid overscoping.
+
 ## GROW-derived workflow family
 
 ### game-design-goal-framing

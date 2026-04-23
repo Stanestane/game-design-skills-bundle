@@ -15,6 +15,8 @@ These skills are designed to be used either:
 - as installed skill folders in an OpenClaw workspace, or
 - as packaged `.skill` files from the `package-skills/` folder.
 
+They now also include a beginner-oriented planning skill for turning rough game concepts into sane first steps, prototype plans, or pitchable vertical-slice strategies.
+
 ## Repository structure
 
 - `game-design-*/` - individual skill folders
@@ -92,6 +94,23 @@ Maps uncertainty and helps decide what to prototype, in what order, and why.
 
 **Best for:**
 Preproduction and uncertainty-driven prototyping.
+
+---
+
+## Beginner planning / first-step strategy
+
+### 6. game-dev-first-steps
+**What it does:**
+Turns a rough game idea into a practical starting plan by asking about team size, skill mix, platform, scope, and first milestone, then recommending what to build first, what to postpone, and how to avoid early overscope.
+
+**Use it when:**
+- someone asks "how do I start making this?"
+- a beginner needs help deciding what to build first
+- a solo dev, duo, or small team needs a sane first milestone
+- a concept should be reduced into a prototype or pitchable vertical slice plan
+
+**Best for:**
+Beginner-friendly scoping, build-order advice, and early production strategy.
 
 ---
 
