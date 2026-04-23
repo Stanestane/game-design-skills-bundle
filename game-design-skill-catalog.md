@@ -12,6 +12,9 @@ Define the emotional core, atmosphere, and vibe of a game, feature, event, or th
 ### game-dev-first-steps
 Turn a rough game idea into a practical order of work for a solo dev, duo, or small team. Best for beginner-friendly scoping, first-milestone planning, and deciding what to build first versus postpone.
 
+### game-dev-team-gap
+Figure out which roles, skills, or disciplines are missing or weakly covered for a game concept and target milestone. Also works in minimum-team mode when no current team is described.
+
 ## General decision framework
 
 ### game-design-grow-design

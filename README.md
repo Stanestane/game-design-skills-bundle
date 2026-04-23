@@ -46,6 +46,27 @@ A beginner-friendly skill that turns rough game ideas into practical first steps
 
 ---
 
+### 0.5 game-dev-team-gap
+**What it does:**
+Helps a beginner or early-stage team figure out which roles and skill areas are missing, weakly covered, or dangerously overloaded for a specific game concept and target milestone.
+
+**Use it when:**
+- someone asks who is missing from the team
+- a concept seems larger than the current team can safely handle
+- a solo dev, duo, or small team needs to understand its weakest coverage
+- no team has been described yet and the user wants the minimum viable team for the project
+
+**Best for:**
+Beginner-friendly role-gap diagnosis and minimum-team planning.
+
+**Example prompt:**
+> We want to make a small co-op survival game for PC and mobile-friendly art style. We have one programmer and one 2D artist. What roles are we missing, which gaps are dangerous, and what is the smallest realistic team for a pitchable vertical slice?
+
+**Short blurb:**
+A practical skill for identifying missing roles, weak coverage, and the smallest workable team for a game concept.
+
+---
+
 ### 1. game-design-emotional-canvas
 **What it does:**
 Defines the emotional core, atmosphere, tone, and vibe of a game, feature, event, world area, or content theme.
