@@ -88,6 +88,27 @@ A practical skill for turning a game concept, team, and scope into a rough budge
 
 ---
 
+### 0.9 game-design-fogg-behavior-audit
+**What it does:**
+Audits a game feature, flow, onboarding step, retention mechanic, or monetization prompt using the Fogg Behavior Model: Motivation, Ability, Prompt.
+
+**Use it when:**
+- a feature seems valuable on paper but players are not using it
+- you want to diagnose whether a behavior is failing because of low motivation, low ability, or a bad prompt
+- you need a focused audit of onboarding, event participation, reward claims, retention mechanics, or monetization nudges
+- you want a practical feature-adoption critique instead of a broad design essay
+
+**Best for:**
+Behavior-focused feature audits, adoption diagnosis, and prompt/friction analysis.
+
+**Example prompt:**
+> Audit this daily event flow with the Fogg Behavior Model. The goal is to get players to enter the event once per day, but adoption is weak. Tell me whether motivation, ability, or prompt is the main bottleneck.
+
+**Short blurb:**
+A practical audit skill for diagnosing whether a feature actually drives the intended player behavior.
+
+---
+
 ### 1. game-design-emotional-canvas
 **What it does:**
 Defines the emotional core, atmosphere, tone, and vibe of a game, feature, event, world area, or content theme.

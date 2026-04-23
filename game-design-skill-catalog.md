@@ -62,6 +62,11 @@ Solve new problems by adapting, extending, recombining, or retuning what already
 ### game-design-feature-prioritization
 Compare candidate options by impact, cost, risk, fit, and timing to decide what to do now versus later.
 
+## Behavior / feature-adoption audits
+
+### game-design-fogg-behavior-audit
+Audit a feature, flow, onboarding step, retention mechanic, or monetization prompt using Motivation, Ability, and Prompt. Best for diagnosing weak feature adoption, friction, and mistimed prompts.
+
 ## FTUE / onboarding audits
 
 ### game-design-ftue-hero-journey-audit
