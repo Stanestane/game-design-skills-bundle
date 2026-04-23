@@ -7,6 +7,11 @@ A quick index of the game design skills currently available in the workspace.
 ### game-design-emotional-canvas
 Define the emotional core, atmosphere, and vibe of a game, feature, event, or theme. Best for emotional identity, moodboards, and tone alignment.
 
+## Beginner planning / early production strategy
+
+### game-dev-first-steps
+Turn a rough game idea into a practical order of work for a solo dev, duo, or small team. Best for beginner-friendly scoping, first-milestone planning, and deciding what to build first versus postpone.
+
 ## General decision framework
 
 ### game-design-grow-design

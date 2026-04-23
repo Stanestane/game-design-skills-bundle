@@ -25,6 +25,21 @@ They now also include a beginner-oriented planning skill for turning rough game 
 
 ## Skills
 
+### 0. game-dev-first-steps
+**What it does:**
+Helps beginners or early-stage indie teams turn a rough game idea into a practical starting plan, prototype strategy, or pitchable vertical-slice path.
+
+**Use it when:**
+- someone asks how to start making a game
+- the concept sounds exciting but the order of work is fuzzy
+- a solo dev, duo, or small team needs help scoping the first milestone
+- the team needs advice on what to build now versus what to postpone
+
+**Best for:**
+Beginner-friendly concept scoping and early development sequencing.
+
+---
+
 ### 1. game-design-emotional-canvas
 **What it does:**
 Defines the emotional core, atmosphere, tone, and vibe of a game, feature, event, world area, or content theme.
