@@ -38,6 +38,12 @@ Helps beginners or early-stage indie teams turn a rough game idea into a practic
 **Best for:**
 Beginner-friendly concept scoping and early development sequencing.
 
+**Example prompt:**
+> I have an idea for a mobile game where you defend a train from bandits. I'm a solo developer. What should I figure out first, what should I prototype first, and what should I postpone if I want a pitchable vertical slice?
+
+**Short blurb:**
+A beginner-friendly skill that turns rough game ideas into practical first steps, sane milestone planning, and realistic build order advice.
+
 ---
 
 ### 1. game-design-emotional-canvas
