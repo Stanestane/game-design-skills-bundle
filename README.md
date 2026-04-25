@@ -88,6 +88,27 @@ A practical skill for turning a game concept, team, and scope into a rough budge
 
 ---
 
+### 0.8 game-dev-time-estimator
+**What it does:**
+Helps a beginner or early-stage team estimate likely development time ranges for a game concept based on scope, team coverage, milestone, availability, and production constraints.
+
+**Use it when:**
+- someone asks how long a game like this might take
+- the concept, team, and milestone are known but the schedule picture is fuzzy
+- the team wants to know whether a target date is realistic
+- no team has been described yet and the user wants scenario-based timeline ranges
+
+**Best for:**
+Beginner-friendly schedule framing, time-driver diagnosis, and rough milestone-based development-time estimation.
+
+**Example prompt:**
+> We want to make a PC co-op survival prototype. We have one programmer full-time and one 3D artist part-time. How long would a prototype or vertical slice likely take, what will bottleneck us, and is 5 months realistic?
+
+**Short blurb:**
+A practical skill for turning a game concept, team, and scope into a rough development timeline with transparent assumptions and schedule risks.
+
+---
+
 ### 0.9 game-design-fogg-behavior-audit
 **What it does:**
 Audits a game feature, flow, onboarding step, retention mechanic, or monetization prompt using the Fogg Behavior Model: Motivation, Ability, Prompt.
