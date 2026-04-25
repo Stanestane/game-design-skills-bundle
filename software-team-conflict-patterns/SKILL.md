@@ -9,7 +9,8 @@ Analyze recurring collaboration problems without pretending to diagnose people.
 
 Use this skill when the user describes a difficult person or recurring team conflict on a software or game project and needs help understanding the likely behavior pattern, why it causes friction, and how to respond productively. The goal is not to label people for sport. The goal is to identify useful patterns, protect project progress, and suggest practical next moves.
 
-Read `references/pattern-notes.md` when you need a compact set of common difficult-person or difficult-stakeholder behavior patterns.
+Read `references/neil-on-software-archetypes.md` when you need the full 48-archetype taxonomy from the Neil on Software source material, including mutation paths, dangerous pairings, likelihood-of-fixing signals, danger-to-project signals, and extracted fix strategies.
+Read `references/pattern-notes.md` when you need a shorter local shorthand set of patterns.
 Read `references/response-strategies.md` when you need guidance on boundaries, documentation, reframing, escalation, and other response moves.
 
 ## Core behavior
@@ -46,21 +47,20 @@ Quickly identify:
 - what bad responses are likely to escalate the problem
 - what realistic response options the user actually has
 
-## Common pattern areas to consider
+Prefer the exact archetype names from the source material instead of inventing new labels when one of the named patterns fits.
 
-Only raise patterns supported by the story.
+## Named archetypes from the source material
 
-- chronic blocker or reflexive naysayer
-- moving-goalpost stakeholder
-- conflict-avoidant decision dodger
-- status-driven critic or smartest-person-in-the-room pattern
-- chaotic priority shifter
-- passive-aggressive non-cooperator
-- blame-shifter
-- heroic firefighter who creates recurring instability
-- vague visionary with low execution discipline
-- controlling micromanager
-- disengaged owner or absent decision-maker
+Default to the 48 Neil on Software archetypes documented in `references/neil-on-software-archetypes.md`.
+
+Use the exact archetype label when it fits. If the story does not fit one cleanly, say which two or three named archetypes are most relevant and explain why. If a locally downloaded source page was missing for one of the 48, say that the archetype name is part of the taxonomy but the local notes are incomplete.
+
+Also use these source-material signals when available:
+- what the archetype can mutate into
+- what it is dangerous when coupled with
+- likelihood of fixing
+- danger to project
+- the extracted fix or mitigation strategy
 
 ## Response structure
 
@@ -71,8 +71,11 @@ Always organize the answer using this structure.
 - state the actual project problem, not just the personality problem
 
 ### Likely Conflict Pattern(s)
-- identify the most likely archetype or behavior pattern
+- identify the most likely named archetype from the source material
+- use the exact archetype label when possible
 - mention uncertainty if more than one pattern fits
+- if relevant, list a primary archetype and secondary archetype
+- mention mutation paths or dangerous pairings if they materially increase the risk
 
 ### Evidence in the Story
 - point to the behaviors that support the reading
@@ -83,6 +86,7 @@ Always organize the answer using this structure.
 - communication risks
 - trust or morale risks
 - escalation risks
+- whether the source material marks the archetype as especially dangerous to the project or especially likely/unlikely to fix
 
 ### Recommended Strategy
 - how to communicate
@@ -90,6 +94,7 @@ Always organize the answer using this structure.
 - what boundaries to set
 - what to avoid
 - whether to escalate, reframe, narrow decisions, or create process guardrails
+- incorporate the source-material fix strategy, but translate it into realistic team-safe action rather than copying it blindly
 
 ### Practical Next Move
 - suggest the next useful conversation, message, meeting move, or documentation step
@@ -115,11 +120,11 @@ Always organize the answer using this structure.
 
 Use this compressed flow when the user wants a quick answer:
 - what recurring behavior is happening
-- what pattern does it most resemble
-- why is it damaging the project
+- which named archetype from the source material it most resembles
+- why it is damaging the project
 - what response is most likely to help
 - what should the user do next
 
 ## Working principle
 
-A difficult project person is not just a personality puzzle. They are a recurring behavior pattern interacting with incentives, power, habits, and team structure. The useful question is not "what is wrong with them?" but "what pattern is happening, what damage is it causing, and what is the smartest safe response?"
+A difficult project person is not just a personality puzzle. They are a recurring behavior pattern interacting with incentives, power, habits, and team structure. The useful question is not "what is wrong with them?" but "which named archetype or combination of archetypes best matches the recurring behavior, what damage is it causing, and what is the smartest safe response?"
