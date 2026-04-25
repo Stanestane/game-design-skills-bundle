@@ -130,6 +130,27 @@ A practical audit skill for diagnosing whether a feature actually drives the int
 
 ---
 
+### 0.95 game-design-perceived-randomness-audit
+**What it does:**
+Audits a game feature, combat system, loot table, reward loop, procedural system, or chance mechanic by how players are likely to perceive its randomness rather than only by the raw math.
+
+**Use it when:**
+- players may think the system feels rigged, streaky, or malicious
+- a design relies on loot drops, hit chance, crits, proc systems, or procedural offers
+- you want to check whether randomness supports skill or sabotages action
+- you need to diagnose gambler's-fallacy-style expectations, expectation mismatch, or competence damage
+
+**Best for:**
+Perceived fairness audits, randomness placement diagnosis, and frustration-risk analysis around chance systems.
+
+**Example prompt:**
+> Audit this chest and combat reward system from the perspective of perceived randomness. Players can miss attacks, crit unpredictably, and open random post-fight chests. Tell me where players may feel the game is rigged, whether the randomness is placed well, and what should change first.
+
+**Short blurb:**
+A practical audit skill for evaluating how players are likely to interpret, mistrust, or emotionally react to randomness in a game system.
+
+---
+
 ### 1. game-design-emotional-canvas
 **What it does:**
 Defines the emotional core, atmosphere, tone, and vibe of a game, feature, event, world area, or content theme.

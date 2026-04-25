@@ -70,6 +70,11 @@ Compare candidate options by impact, cost, risk, fit, and timing to decide what 
 ### game-design-fogg-behavior-audit
 Audit a feature, flow, onboarding step, retention mechanic, or monetization prompt using Motivation, Ability, and Prompt. Best for diagnosing weak feature adoption, friction, and mistimed prompts.
 
+## Randomness / fairness-perception audits
+
+### game-design-perceived-randomness-audit
+Audit a game feature, combat system, loot table, reward loop, procedural system, or chance mechanic by how players are likely to perceive its randomness. Best for spotting streak pain, gambler's-fallacy-style expectation errors, rigged-feeling outcomes, and cases where randomness undermines competence or agency.
+
 ## FTUE / onboarding audits
 
 ### game-design-ftue-hero-journey-audit
