@@ -513,6 +513,31 @@ Segment targeting, feature rollout messaging, and cross-cohort perception analys
 
 ---
 
+## Example prompt pack for the 4 game-dev skills
+
+Use the same concept across all four skills to get a beginner-friendly planning stack from first steps -> team gaps -> budget -> timeline.
+
+### 1. game-dev-first-steps
+> I want to make a small PC creature-battler with light base-building and asynchronous trading. We are two people: one programmer and one 2D artist. What should we build first, what should we postpone, and what should our smallest believable prototype be?
+
+### 2. game-dev-team-gap
+> We want to make a small PC creature-battler with light base-building and asynchronous trading. We are two people: one programmer and one 2D artist. What roles or skills are we missing for a prototype and later for a vertical slice?
+
+### 3. game-dev-budget-estimator
+> We want to make a small PC creature-battler with light base-building and asynchronous trading. We are two people: one programmer and one 2D artist, both part-time in Eastern Europe. What rough budget should we expect for a prototype and for a vertical slice, and what costs are probably not covered by our team?
+
+### 4. game-dev-time-estimator
+> We want to make a small PC creature-battler with light base-building and asynchronous trading. We are two people: one programmer and one 2D artist, both part-time. How long would a prototype and a vertical slice likely take, what would bottleneck us, and is 6 months realistic for the vertical slice?
+
+### Fast comparison pack
+
+Use these when you want to test skill boundaries quickly.
+
+- **First steps:** What should we build first?
+- **Team gap:** Who are we missing?
+- **Budget:** What will this likely cost?
+- **Time:** How long will this likely take?
+
 ## How to use
 
 ### In OpenClaw

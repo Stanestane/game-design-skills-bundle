@@ -18,6 +18,9 @@ Figure out which roles, skills, or disciplines are missing or weakly covered for
 ### game-dev-budget-estimator
 Estimate likely budget ranges for a game concept based on scope, milestone, current team, work model, and geography. Also works in scenario mode when the team is unknown.
 
+### game-dev-time-estimator
+Estimate likely development time ranges for a game concept based on scope, milestone, current team, availability, and production constraints. Also works in scenario mode when the team is unknown and in target-date mode when the user wants a realism check on a deadline.
+
 ## General decision framework
 
 ### game-design-grow-design
@@ -106,6 +109,8 @@ Analyze recurring conflict behavior on software or game projects by identifying 
 - **Need better psychological diagnosis** -> `game-design-player-motivation-audit` or `game-design-player-need-satisfaction-audit`
 - **Need to decide what to prototype** -> `game-design-unknown-unknowns-prototyping`
 - **Need to pick what to do now** -> `game-design-feature-prioritization`
+- **Need a beginner planning sequence** -> `game-dev-first-steps` -> `game-dev-team-gap` -> `game-dev-budget-estimator` -> `game-dev-time-estimator`
+- **Need a deadline realism check** -> `game-dev-time-estimator`
 
 ## Notes
 
