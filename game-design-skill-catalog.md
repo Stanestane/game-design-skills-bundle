@@ -104,6 +104,9 @@ Extract the actual core loop from repeated player action, feedback, reward, and 
 ### game-design-molyneux-lens
 Stress-test a concept through a deliberately provocative, ambition-seeking lens. Best for calling out safe, emotionally weak ideas and pushing them toward sharper fantasy, reactivity, and memorable moments before grounding them again.
 
+### game-design-thinking-fast-and-slow-audit
+Audit a game, feature, or proposal through the lens of fast versus slow thinking. Best for identifying whether a design asks for instinctive versus analytical cognition, where those demands mismatch the fantasy or pacing, and where handoffs between reactive and reflective play become exhausting or fake-deep.
+
 ## FTUE / onboarding audits
 
 ### game-design-ftue-hero-journey-audit
@@ -148,6 +151,7 @@ Analyze recurring conflict behavior on software or game projects by identifying 
 - **Need to isolate the actual repeatable structure** -> `game-design-core-loop-extractor`
 - **Need to understand why failure feels bad or good** -> `game-design-failure-loop-audit` or `game-design-fairness-frustration-audit`
 - **Need a provocative ambition check** -> `game-design-molyneux-lens`
+- **Need to audit cognitive demand and mode-switching** -> `game-design-thinking-fast-and-slow-audit`
 - **Need a beginner planning sequence** -> `game-dev-first-steps` -> `game-dev-team-gap` -> `game-dev-budget-estimator` -> `game-dev-time-estimator`
 - **Need a deadline realism check** -> `game-dev-time-estimator`
 

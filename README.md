@@ -17,7 +17,7 @@ These skills are designed to be used either:
 
 They now also include beginner-oriented planning skills for turning rough game concepts into sane first steps, team plans, and budget ranges, plus a project-adjacent collaboration skill for analyzing recurring conflict patterns on software teams.
 
-This repo now also includes a newer extractor/audit pack focused on fantasy, persona, pillars, core loop, failure loop, attribution, flow, fairness/frustration, and a deliberately provocative Molyneux-style lens.
+This repo now also includes a newer extractor/audit pack focused on fantasy, persona, pillars, core loop, failure loop, attribution, flow, fairness/frustration, a deliberately provocative Molyneux-style lens, and a fast-vs-slow cognition audit inspired by Thinking, Fast and Slow.
 
 ## Repository structure
 
@@ -152,6 +152,20 @@ Stress-tests a concept through a deliberately provocative, ambition-seeking lens
 
 **Best for:**
 Ambition pressure-testing, fantasy escalation, and memorable-moment provocation.
+
+---
+
+### game-design-thinking-fast-and-slow-audit
+**What it does:**
+Audits a design through the lens of fast versus slow thinking: instinctive/reactive cognition versus deliberate/analytical cognition, including where the design mishandles transitions between them.
+
+**Use it when:**
+- a proposal may be asking for the wrong kind of thinking for its fantasy or pacing
+- a hybrid design feels cognitively awkward, exhausting, or fake-deep
+- you want to diagnose overload, under-stimulation, or bad handoffs between reactive and reflective play
+
+**Best for:**
+Cognitive-demand analysis, fast/slow mode-fit diagnosis, and handoff-risk audits.
 
 ---
 
@@ -715,6 +729,7 @@ If you are not sure where to begin:
 - stale discussion -> `game-design-creative-unblocker`
 - unclear prototype needs -> `game-design-unknown-unknowns-prototyping`
 - upcoming publisher conversation -> `game-design-pitch-deck-audit`
+- need to audit whether the design asks for the right kind of cognition -> `game-design-thinking-fast-and-slow-audit`
 - need structured brainstorming methods -> `game-design-brainstorm-methods`
 - suspect the best improvement is subtraction -> `game-design-one-thing-to-remove`
 - not sure if the concept is too familiar or too novel -> `game-design-novelty-spectrum-audit`
