@@ -17,7 +17,7 @@ These skills are designed to be used either:
 
 They now also include beginner-oriented planning skills for turning rough game concepts into sane first steps, team plans, and budget ranges, plus a project-adjacent collaboration skill for analyzing recurring conflict patterns on software teams.
 
-This repo now also includes a newer extractor/audit pack focused on fantasy, persona, pillars, core loop, failure loop, attribution, flow, fairness/frustration, a deliberately provocative Molyneux-style lens, and a fast-vs-slow cognition audit inspired by Thinking, Fast and Slow.
+This repo now also includes a newer extractor/audit pack focused on fantasy, persona, pillars, core loop, failure loop, attribution, flow, fairness/frustration, a deliberately provocative Molyneux-style lens, a fast-vs-slow cognition audit inspired by Thinking, Fast and Slow, plus peak-end and Zeigarnik-effect audits for memory-shape and unfinished-business tension.
 
 ## Repository structure
 
@@ -166,6 +166,34 @@ Audits a design through the lens of fast versus slow thinking: instinctive/react
 
 **Best for:**
 Cognitive-demand analysis, fast/slow mode-fit diagnosis, and handoff-risk audits.
+
+---
+
+### game-design-peak-end-audit
+**What it does:**
+Audits a design through the peak-end rule by identifying which moments dominate memory, how strong the emotional peaks are, and whether the ending helps or poisons the remembered experience.
+
+**Use it when:**
+- a feature feels decent on average but is remembered badly
+- you want to know whether the strongest moment and the final note are doing the right work
+- a reward sequence, session ending, or event wrap-up needs a stronger aftertaste
+
+**Best for:**
+Memory-shape diagnosis, ending-quality analysis, and peak-moment tuning.
+
+---
+
+### game-design-zeigarnik-effect-audit
+**What it does:**
+Audits a design through the Zeigarnik effect by examining how unresolved tasks, incomplete progress, and open loops create return tension, curiosity, or unhealthy pressure.
+
+**Use it when:**
+- a system relies on unfinished business to drive return behavior
+- you want to know whether open loops create momentum or just chores and guilt
+- quest logs, event tracks, collections, or progression dashboards may be cluttering the player's mind
+
+**Best for:**
+Open-loop tension analysis, return-motivation diagnosis, and unfinished-task hygiene.
 
 ---
 
@@ -730,6 +758,8 @@ If you are not sure where to begin:
 - unclear prototype needs -> `game-design-unknown-unknowns-prototyping`
 - upcoming publisher conversation -> `game-design-pitch-deck-audit`
 - need to audit whether the design asks for the right kind of cognition -> `game-design-thinking-fast-and-slow-audit`
+- need to audit which moments and endings dominate memory -> `game-design-peak-end-audit`
+- need to audit whether unfinished business creates momentum or guilt -> `game-design-zeigarnik-effect-audit`
 - need structured brainstorming methods -> `game-design-brainstorm-methods`
 - suspect the best improvement is subtraction -> `game-design-one-thing-to-remove`
 - not sure if the concept is too familiar or too novel -> `game-design-novelty-spectrum-audit`

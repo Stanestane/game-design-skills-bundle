@@ -107,6 +107,12 @@ Stress-test a concept through a deliberately provocative, ambition-seeking lens.
 ### game-design-thinking-fast-and-slow-audit
 Audit a game, feature, or proposal through the lens of fast versus slow thinking. Best for identifying whether a design asks for instinctive versus analytical cognition, where those demands mismatch the fantasy or pacing, and where handoffs between reactive and reflective play become exhausting or fake-deep.
 
+### game-design-peak-end-audit
+Audit a game, feature, session, level, event, onboarding flow, reward sequence, or return-player experience through the lens of the peak-end rule. Best for identifying which moments dominate memory, whether the emotional high points are strong enough, and whether the ending leaves the right aftertaste.
+
+### game-design-zeigarnik-effect-audit
+Audit a game, feature, task system, quest flow, event track, puzzle chain, progression layer, or return loop through the lens of the Zeigarnik effect. Best for evaluating whether unfinished business creates healthy return pull, curiosity, and momentum, or whether it turns into guilt, clutter, and manipulative pressure.
+
 ## FTUE / onboarding audits
 
 ### game-design-ftue-hero-journey-audit
@@ -152,6 +158,8 @@ Analyze recurring conflict behavior on software or game projects by identifying 
 - **Need to understand why failure feels bad or good** -> `game-design-failure-loop-audit` or `game-design-fairness-frustration-audit`
 - **Need a provocative ambition check** -> `game-design-molyneux-lens`
 - **Need to audit cognitive demand and mode-switching** -> `game-design-thinking-fast-and-slow-audit`
+- **Need to audit remembered aftertaste and dominant moments** -> `game-design-peak-end-audit`
+- **Need to audit unresolved-task tension and return pull** -> `game-design-zeigarnik-effect-audit`
 - **Need a beginner planning sequence** -> `game-dev-first-steps` -> `game-dev-team-gap` -> `game-dev-budget-estimator` -> `game-dev-time-estimator`
 - **Need a deadline realism check** -> `game-dev-time-estimator`
 
