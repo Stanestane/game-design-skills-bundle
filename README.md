@@ -17,6 +17,8 @@ These skills are designed to be used either:
 
 They now also include beginner-oriented planning skills for turning rough game concepts into sane first steps, team plans, and budget ranges, plus a project-adjacent collaboration skill for analyzing recurring conflict patterns on software teams.
 
+This repo now also includes a newer extractor/audit pack focused on fantasy, persona, pillars, core loop, failure loop, attribution, flow, fairness/frustration, and a deliberately provocative Molyneux-style lens.
+
 ## Repository structure
 
 - `game-design-*/` - individual skill folders
@@ -24,6 +26,134 @@ They now also include beginner-oriented planning skills for turning rough game c
 - `game-design-skill-catalog.md` - compact local catalog/index
 
 ## Skills
+
+## New extractor / audit additions
+
+### game-design-attribution-audit
+**What it does:**
+Audits how players explain success and failure through attribution theory: locus, stability, and controllability.
+
+**Use it when:**
+- players seem to blame the game instead of their own decisions
+- a failure feels unfair, opaque, or unteachable
+- you want to diagnose learned helplessness, rage, or churn after repeated losses
+
+**Best for:**
+Perceived causality, fairness diagnosis, and failure-teachability analysis.
+
+---
+
+### game-design-flow-audit
+**What it does:**
+Audits how challenge and player skill align over time to identify boredom, anxiety, and exact flow-break moments.
+
+**Use it when:**
+- pacing feels flat, spiky, or mysteriously exhausting
+- difficulty may be too high, too low, or badly timed
+- you need a time-based engagement read rather than a static balance opinion
+
+**Best for:**
+Challenge-skill alignment, pacing diagnosis, and temporal engagement analysis.
+
+---
+
+### game-design-fairness-frustration-audit
+**What it does:**
+Combines attribution, flow, and randomness-perception lenses to audit whether a design feels fair, understandable, and worth retrying.
+
+**Use it when:**
+- players say something feels unfair, rigged, hostile, or just maddening
+- the system is technically functional but emotionally untrusted
+- you need to know why frustration points toward quitting instead of mastery
+
+**Best for:**
+Trust diagnosis, fairness perception, and retry-worthiness analysis.
+
+---
+
+### game-design-failure-loop-audit
+**What it does:**
+Audits what happens after failure: what players lose, what they learn, how fast they re-enter, and whether the loop creates momentum or resignation.
+
+**Use it when:**
+- retry structure feels punishing or exhausting
+- the team is tuning death, setback, reset, or recovery systems
+- the player dreads the retry more than the challenge itself
+
+**Best for:**
+Punishment tuning, retry friction analysis, and post-failure motivation diagnosis.
+
+---
+
+### game-design-fantasy-extractor
+**What it does:**
+Extracts the core player fantasy from what the design actually lets the player do, feel, and become.
+
+**Use it when:**
+- the team can explain mechanics but not the emotional promise
+- a pitch names features instead of a player fantasy
+- the concept feels emotionally vague or thematically fake
+
+**Best for:**
+Fantasy clarification, pitch sharpening, and mechanic-to-emotion alignment.
+
+---
+
+### game-design-player-persona-extractor
+**What it does:**
+Extracts the ideal player persona and anti-persona from the design itself, behavior-first. It can also optionally add demographic overlap, market-validation, comparable-title, and pitch-facing audience-summary layers when explicitly requested.
+
+**Use it when:**
+- the team knows the mechanics but not who the design is really for
+- audience fit is vague or contradictory
+- you need a behavior-first persona before adding market-facing framing
+
+**Best for:**
+Audience-fit diagnosis, player targeting, and pitch-support persona framing.
+
+---
+
+### game-design-design-pillars-extractor
+**What it does:**
+Extracts 3 to 5 actionable design pillars from what the game actually rewards, prioritizes, and sacrifices.
+
+**Use it when:**
+- the team has vague slogans instead of real design pillars
+- mechanics exist but the governing principles are muddy
+- you need tradeoff-driven pillars that can guide cuts and decisions
+
+**Best for:**
+Design-principle extraction, focus recovery, and feature-triage alignment.
+
+---
+
+### game-design-core-loop-extractor
+**What it does:**
+Extracts the actual repeatable core loop from player actions, game response, reward, and renewed motivation.
+
+**Use it when:**
+- a pitch sounds like disconnected feature soup
+- the design doc lists systems but not the repeatable engine
+- you need to separate the core loop from meta layers and progression wallpaper
+
+**Best for:**
+Loop clarity, feature-sprawl diagnosis, and motivational structure analysis.
+
+---
+
+### game-design-molyneux-lens
+**What it does:**
+Stress-tests a concept through a deliberately provocative, ambition-seeking lens that pushes fantasy and reactivity, then grounds the result back into something usable.
+
+**Use it when:**
+- a concept feels too safe or mechanically competent but emotionally weak
+- the team needs sharper provocation, stronger fantasy, or more memorable possibility
+- you want a boldness check before settling into compromise
+
+**Best for:**
+Ambition pressure-testing, fantasy escalation, and memorable-moment provocation.
+
+---
 
 ### 0. game-dev-first-steps
 **What it does:**

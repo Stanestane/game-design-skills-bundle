@@ -75,6 +75,35 @@ Audit a feature, flow, onboarding step, retention mechanic, or monetization prom
 ### game-design-perceived-randomness-audit
 Audit a game feature, combat system, loot table, reward loop, procedural system, or chance mechanic by how players are likely to perceive its randomness. Best for spotting streak pain, gambler's-fallacy-style expectation errors, rigged-feeling outcomes, and cases where randomness undermines competence or agency.
 
+### game-design-attribution-audit
+Audit how players explain success and failure through locus, stability, and controllability. Best for spotting when players blame the system, luck, or hidden rules instead of seeing failure as learnable.
+
+### game-design-flow-audit
+Audit whether challenge and player skill stay aligned over time. Best for identifying boredom plateaus, anxiety spikes, and exact moments where pacing or difficulty breaks engagement.
+
+### game-design-fairness-frustration-audit
+Audit perceived fairness and retry-worthiness by combining attribution, flow, and randomness-perception lenses. Best for diagnosing why a design feels hostile, suspicious, or anger-inducing even when it is technically functional.
+
+### game-design-failure-loop-audit
+Audit what happens after failure: what players lose, what they learn, how fast they retry, and whether the loop creates momentum or resignation.
+
+## Fantasy / audience / structure extractors
+
+### game-design-fantasy-extractor
+Extract the core player fantasy from a game, feature, or pitch based on what the design actually lets the player do, feel, and become. Best for testing whether the claimed fantasy is real, generic, conflicted, or unsupported.
+
+### game-design-player-persona-extractor
+Extract the ideal player persona and anti-persona from the design itself. Best for behavior-first audience definition, with optional demographic, market-validation, comparable-title, and pitch-facing audience-summary layers when explicitly requested.
+
+### game-design-design-pillars-extractor
+Extract 3 to 5 actionable design pillars from what the game actually rewards and prioritizes. Best for replacing vague slogans with testable, tradeoff-driven principles.
+
+### game-design-core-loop-extractor
+Extract the actual core loop from repeated player action, feedback, reward, and renewed intent. Best for exposing feature soup, dead steps, false loops, or weak motivational closure.
+
+### game-design-molyneux-lens
+Stress-test a concept through a deliberately provocative, ambition-seeking lens. Best for calling out safe, emotionally weak ideas and pushing them toward sharper fantasy, reactivity, and memorable moments before grounding them again.
+
 ## FTUE / onboarding audits
 
 ### game-design-ftue-hero-journey-audit
@@ -110,10 +139,15 @@ Analyze recurring conflict behavior on software or game projects by identifying 
 - **Need clarity first** -> `game-design-goal-framing`
 - **Need more solution paths** -> `game-design-option-generation` or `game-design-five-options`
 - **Need to get unstuck** -> `game-design-roadblock-reframing` or `game-design-creative-unblocker`
-- **Need stronger emotional direction** -> `game-design-emotional-canvas`
-- **Need better psychological diagnosis** -> `game-design-player-motivation-audit` or `game-design-player-need-satisfaction-audit`
+- **Need stronger emotional direction** -> `game-design-emotional-canvas` or `game-design-fantasy-extractor`
+- **Need better psychological diagnosis** -> `game-design-player-motivation-audit`, `game-design-player-need-satisfaction-audit`, `game-design-attribution-audit`, or `game-design-flow-audit`
 - **Need to decide what to prototype** -> `game-design-unknown-unknowns-prototyping`
 - **Need to pick what to do now** -> `game-design-feature-prioritization`
+- **Need to clarify who the game is really for** -> `game-design-player-persona-extractor`
+- **Need to extract the real design principles** -> `game-design-design-pillars-extractor`
+- **Need to isolate the actual repeatable structure** -> `game-design-core-loop-extractor`
+- **Need to understand why failure feels bad or good** -> `game-design-failure-loop-audit` or `game-design-fairness-frustration-audit`
+- **Need a provocative ambition check** -> `game-design-molyneux-lens`
 - **Need a beginner planning sequence** -> `game-dev-first-steps` -> `game-dev-team-gap` -> `game-dev-budget-estimator` -> `game-dev-time-estimator`
 - **Need a deadline realism check** -> `game-dev-time-estimator`
 
