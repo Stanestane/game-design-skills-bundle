@@ -15,7 +15,6 @@ These skills are designed to be used either:
 - as installed skill folders in an OpenClaw workspace, or
 - as packaged `.skill` files from the `package-skills/` folder.
 
-The repo also includes one workflow/meta skill for maintaining and shipping the bundle itself, so the standard create -> mirror -> package -> document -> commit/push -> publish routine does not need to be restated every time.
 
 They now also include beginner-oriented planning skills for turning rough game concepts into sane first steps, team plans, and budget ranges, plus a project-adjacent collaboration skill for analyzing recurring conflict patterns on software teams.
 
@@ -24,7 +23,6 @@ This repo now also includes a newer extractor/audit pack focused on fantasy, per
 ## Repository structure
 
 - `game-design-*/` - individual game-design skill folders
-- `game-design-skill-shipping/` - workflow/meta skill for shipping bundle skills consistently
 - `package-skills/` - packaged distributable `.skill` files
 - `game-design-skill-catalog.md` - compact local catalog/index
 
@@ -748,22 +746,6 @@ Use these when you want to test skill boundaries quickly.
 - **Team gap:** Who are we missing?
 - **Budget:** What will this likely cost?
 - **Time:** How long will this likely take?
-
-## Bundle workflow / meta skill
-
-### game-design-skill-shipping
-**What it does:**
-Runs the standard house workflow for creating or updating a bundle skill: workspace copy, repo copy, packaging, doc updates, git commit/push, and ClawHub publish.
-
-**Use it when:**
-- you are making a new skill for this bundle
-- you are updating an existing bundle skill and do not want to restate the shipping ritual
-- you want naming, packaging, docs, git, and ClawHub handled consistently
-
-**Best for:**
-Bundle maintenance, skill shipping, and repo/publish consistency.
-
----
 
 ## How to use
 

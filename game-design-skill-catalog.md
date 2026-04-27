@@ -168,11 +168,6 @@ Analyze recurring conflict behavior on software or game projects by identifying 
 - **Need a beginner planning sequence** -> `game-dev-first-steps` -> `game-dev-team-gap` -> `game-dev-budget-estimator` -> `game-dev-time-estimator`
 - **Need a deadline realism check** -> `game-dev-time-estimator`
 
-## Bundle workflow / meta skill
-
-### game-design-skill-shipping
-Run the standard bundle workflow for new or updated skills: workspace uncompressed copy, repo source copy, packaging into `package-skills/`, docs/catalog updates, git commit/push, and ClawHub publish.
-
 ## Notes
 
 - The GROW-derived skills are mostly workflow skills.
