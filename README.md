@@ -381,6 +381,21 @@ Psychological need diagnosis and quality-of-experience audits.
 
 ---
 
+### game-design-multiplayer-feature-audit
+**What it does:**
+Audits a game, feature, live-ops layer, social system, or multiplayer concept for the quality and fit of its social design.
+
+**Use it when:**
+- you want to evaluate collaboration, competition, or collaborate-to-compete structures
+- you need to judge whether a feature should be synchronous, asynchronous, realtime, or hybrid
+- you are reviewing guilds, clubs, leaderboards, judged showcases, community structures, or status systems
+- you want to add social play to a mostly single-player game without damaging its core fantasy
+
+**Best for:**
+Social-system fit, multiplayer structure, community formation, and vanity/status audits.
+
+---
+
 ### 5. game-design-unknown-unknowns-prototyping
 **What it does:**
 Maps uncertainty and helps decide what to prototype, in what order, and why.
@@ -752,6 +767,7 @@ If you are not sure where to begin:
 - no good options yet -> `game-design-option-generation`
 - emotionally flat idea -> `game-design-emotional-canvas`
 - suspicious engagement loop -> `game-design-player-motivation-audit`
+- need to audit social systems, multiplayer structure, or community/status fit -> `game-design-multiplayer-feature-audit`
 - weak onboarding -> `game-design-ftue-hero-journey-audit`
 - unclear session structure -> `game-design-goal-density-and-immediacy-audit`
 - stale discussion -> `game-design-creative-unblocker`

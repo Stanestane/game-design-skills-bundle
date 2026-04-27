@@ -37,6 +37,11 @@ Audit whether a design satisfies or denies autonomy, competence, and relatedness
 ### game-design-bartle-archetype-audit
 Audit a feature or system through the lens of Achievers, Explorers, Socializers, and Killers to understand which player archetypes it serves, neglects, or harms.
 
+## Multiplayer / social-system audits
+
+### game-design-multiplayer-feature-audit
+Audit a game, feature, live-ops layer, social system, or multiplayer concept for the quality and fit of its social design. Best for evaluating collaboration, competition, collaborate-to-compete structures, synchronous versus asynchronous play, community formation, and vanity/status systems.
+
 ## Prototyping / uncertainty
 
 ### game-design-unknown-unknowns-prototyping
