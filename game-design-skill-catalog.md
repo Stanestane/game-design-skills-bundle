@@ -137,6 +137,12 @@ Infer a player's underlying values and motivational priorities from behavior, th
 ### game-design-player-perspective-reframe
 Reframe a player's current situation to reveal new meaning, goals, roles, or playstyles without changing the underlying mechanics. Best for stagnation recovery, adaptive guidance, alternate challenge framing, and judging when an interpretive intervention is useful versus when the real issue is structural.
 
+### game-design-social-satisfaction-matrix
+Evaluate a game's social features and multiplayer elements by their potential to create social satisfaction versus social dissatisfaction. Best for classifying social systems as basic, critical, booster, or secondary, and for identifying which features are missing foundations, carrying too much risk, or offering easy social upside.
+
+### game-design-prosocial-session-chapters
+Design or audit prosocial experiences in session-based multiplayer games using a three-phase model built around Setup, Little Loops, and Long Tail. Best for co-op, team-based, and repeat-session multiplayer formats where prosociality needs to be primed before play, repeated during play, and preserved after play.
+
 ## Pitch / publishing audits
 
 ### game-design-pitch-deck-audit

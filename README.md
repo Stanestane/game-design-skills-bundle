@@ -625,6 +625,36 @@ Stagnation recovery, adaptive guidance, and alternate-goal reframing when the co
 
 ---
 
+### game-design-social-satisfaction-matrix
+**What it does:**
+Evaluates a game's social features and multiplayer elements by their potential to create social satisfaction versus social dissatisfaction.
+
+**Use it when:**
+- you need to classify social features as basic, critical, booster, or secondary
+- you are auditing chat, voice, gifting, guilds, lobbies, reporting, hubs, friend systems, or profile surfaces
+- you want to reduce social risk while increasing social stickiness
+- the team is treating all social features as equally important or equally dangerous
+
+**Best for:**
+Social feature prioritization, social UX risk/opportunity mapping, and multiplayer stickiness analysis.
+
+---
+
+### game-design-prosocial-session-chapters
+**What it does:**
+Designs or audits prosocial experiences in session-based multiplayer games using a three-phase model built around Setup, Little Loops, and Long Tail.
+
+**Use it when:**
+- you are evaluating co-op games, team shooters, MOBAs, mission-based multiplayer, or other repeat-session formats
+- you want to prime trust before play, reinforce repeatable helping behaviors during play, and preserve positive momentum after play
+- a multiplayer game feels socially flat, hostile, forgettable, or unable to turn one good match into another
+- you need a time-structured prosocial lens rather than a static feature checklist
+
+**Best for:**
+Session-based prosocial design, trust-building arc analysis, and repeat-session social experience tuning.
+
+---
+
 ## Publishing / pitch support
 
 ### 16. game-design-pitch-deck-audit
@@ -819,6 +849,8 @@ If you are not sure where to begin:
 - need to map where challenge becomes harmful friction -> `game-design-friction-journey-audit`
 - need a behavior-first values profile for personalization or targeting -> `game-design-player-values-mapper`
 - player is not truly blocked, but their reading of the current state has gone stale -> `game-design-player-perspective-reframe`
+- need to classify social features by satisfaction upside versus dissatisfaction risk -> `game-design-social-satisfaction-matrix`
+- need to design prosociality across the arc of repeated multiplayer sessions -> `game-design-prosocial-session-chapters`
 - stale discussion -> `game-design-creative-unblocker`
 - unclear prototype needs -> `game-design-unknown-unknowns-prototyping`
 - upcoming publisher conversation -> `game-design-pitch-deck-audit`
