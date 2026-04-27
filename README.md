@@ -610,6 +610,21 @@ Behavior-first player profiling, value-alignment diagnosis, and personalization 
 
 ---
 
+### game-design-player-perspective-reframe
+**What it does:**
+Reframes a player's current situation to reveal new meaning, goals, roles, or playstyles without changing the underlying mechanics.
+
+**Use it when:**
+- players are not literally blocked, but their interpretation of the current state has gone stale
+- you want to design re-engagement prompts, adaptive guidance, or alternate challenge framing
+- a system has meaningful options available, but players no longer recognize them as interesting or purposeful
+- you need to judge whether reframing is appropriate or whether the real issue is structural
+
+**Best for:**
+Stagnation recovery, adaptive guidance, and alternate-goal reframing when the core system is still fundamentally sound.
+
+---
+
 ## Publishing / pitch support
 
 ### 16. game-design-pitch-deck-audit
@@ -803,6 +818,7 @@ If you are not sure where to begin:
 - unclear session structure -> `game-design-goal-density-and-immediacy-audit`
 - need to map where challenge becomes harmful friction -> `game-design-friction-journey-audit`
 - need a behavior-first values profile for personalization or targeting -> `game-design-player-values-mapper`
+- player is not truly blocked, but their reading of the current state has gone stale -> `game-design-player-perspective-reframe`
 - stale discussion -> `game-design-creative-unblocker`
 - unclear prototype needs -> `game-design-unknown-unknowns-prototyping`
 - upcoming publisher conversation -> `game-design-pitch-deck-audit`

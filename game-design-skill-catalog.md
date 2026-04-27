@@ -134,6 +134,9 @@ Audit a game, feature flow, economy path, onboarding journey, progression chain,
 ### game-design-player-values-mapper
 Infer a player's underlying values and motivational priorities from behavior, then translate those into design implications. Best for behavior-first personalization, segmentation, event/offer targeting, and diagnosing where the design is asking for values the player does not strongly hold.
 
+### game-design-player-perspective-reframe
+Reframe a player's current situation to reveal new meaning, goals, roles, or playstyles without changing the underlying mechanics. Best for stagnation recovery, adaptive guidance, alternate challenge framing, and judging when an interpretive intervention is useful versus when the real issue is structural.
+
 ## Pitch / publishing audits
 
 ### game-design-pitch-deck-audit
