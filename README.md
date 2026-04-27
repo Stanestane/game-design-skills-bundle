@@ -580,6 +580,36 @@ Session structure, return-player experience, and retention-oriented goal design.
 
 ---
 
+### game-design-friction-journey-audit
+**What it does:**
+Audits a game, feature flow, economy path, onboarding journey, progression chain, or live-ops loop for friction quality and friction accumulation.
+
+**Use it when:**
+- players stall, disengage, or churn and the reason is not yet clear
+- you need to distinguish meaningful challenge from harmful obstruction
+- waiting, confusion, resource pressure, or dependency chains may be stacking badly
+- a system feels sticky in the wrong way
+
+**Best for:**
+Journey mapping, friction diagnosis, and challenge-versus-frustration analysis.
+
+---
+
+### game-design-player-values-mapper
+**What it does:**
+Infers a player's underlying values and motivational priorities from behavior, then translates those into design implications.
+
+**Use it when:**
+- you need behavior-first personalization or segmentation
+- players behave differently from what the design assumed they would value
+- you want better targeting for events, missions, offers, or adaptive guidance
+- you need a practical values profile instead of a demographic label
+
+**Best for:**
+Behavior-first player profiling, value-alignment diagnosis, and personalization framing.
+
+---
+
 ## Publishing / pitch support
 
 ### 16. game-design-pitch-deck-audit
@@ -771,6 +801,8 @@ If you are not sure where to begin:
 - need to audit social systems, multiplayer structure, or community/status fit -> `game-design-multiplayer-feature-audit`
 - weak onboarding -> `game-design-ftue-hero-journey-audit`
 - unclear session structure -> `game-design-goal-density-and-immediacy-audit`
+- need to map where challenge becomes harmful friction -> `game-design-friction-journey-audit`
+- need a behavior-first values profile for personalization or targeting -> `game-design-player-values-mapper`
 - stale discussion -> `game-design-creative-unblocker`
 - unclear prototype needs -> `game-design-unknown-unknowns-prototyping`
 - upcoming publisher conversation -> `game-design-pitch-deck-audit`

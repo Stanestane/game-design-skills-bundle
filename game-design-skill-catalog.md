@@ -128,6 +128,12 @@ Audit FTUE and onboarding flows through the Hero's Journey lens: call to adventu
 ### game-design-goal-density-and-immediacy-audit
 Audit a game or feature for goal density, immediacy of goals, short/mid/long-term goal breakdown, safe stopping points, and return triggers.
 
+### game-design-friction-journey-audit
+Audit a game, feature flow, economy path, onboarding journey, progression chain, or live-ops loop for friction quality and friction accumulation. Best for diagnosing where productive challenge becomes harmful obstruction, where multiple constraints stack badly, and where players slow, stall, or churn.
+
+### game-design-player-values-mapper
+Infer a player's underlying values and motivational priorities from behavior, then translate those into design implications. Best for behavior-first personalization, segmentation, event/offer targeting, and diagnosing where the design is asking for values the player does not strongly hold.
+
 ## Pitch / publishing audits
 
 ### game-design-pitch-deck-audit
