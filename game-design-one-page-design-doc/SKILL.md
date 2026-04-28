@@ -5,9 +5,9 @@ description: Create a concise one-page game design document and export it as bot
 
 # Game Design One-Page Design Doc
 
-Create a one-page game design document that is actually readable, decision-useful, and exportable as a PDF.
+Create a one-page game design document that is readable, decision-useful, and visually polished — exportable as a PDF that looks like a real product.
 
-Use this skill when the user wants a compact game design summary rather than a bloated GDD. This skill is inspired by one-page design-document practice: communicate the core idea clearly, fit the essentials on one page, and give the team something they will actually read.
+Use this skill when the user wants a compact game design summary rather than a bloated GDD. The output is designed to be passed around in meetings, dropped in Slack, or emailed to publishers without embarrassment.
 
 Read `references/family-conventions.md` when you want the shared style and prioritization rules for this game-design skill family.
 Read `references/source-notes.md` when you want the distilled takeaways from the reference template and the GDC talk overview.
@@ -32,21 +32,56 @@ It should not:
 ## What to produce
 
 Produce:
-1. **One-page markdown doc** - the editable text version
-2. **One-page PDF** - the shareable formatted version
-3. **Structured source JSON** - the intermediate data used for rendering, when useful for iteration
+1. **One-page PDF** — the shareable, visually designed version
+2. **One-page markdown doc** — the editable text version
+3. **Structured source JSON** — the intermediate data used for rendering
+
+## Visual design
+
+The PDF renderer (`scripts/render_one_page_gdd.py`) produces a professional dark-theme layout:
+
+- **Dark background** — near-black navy `#0F111A`, with a lighter panel for the header
+- **Teal accent colour** — `#00C8A0` for rules, section headings, pillar tag nubs, and bullet markers
+- **Pillar tags** — design pillars rendered as pill-shaped labels with a teal left accent in the header
+- **Two-column body** — left column for mechanics-heavy content, right column for production/aesthetic content
+- **Section rules** — a teal horizontal rule above each section label
+- **Poppins typeface** — used when available (falls back to Liberation Sans or DejaVu)
+- **Branded footer** — document label on the left, game title on the right
+
+The renderer uses **ReportLab** (vector PDF — real text, not a raster image), making the output searchable, copy-pasteable, and print-sharp.
+
+### Font requirements
+
+The renderer searches for fonts in standard system locations automatically:
+- Linux: `/usr/share/fonts/truetype/google-fonts/`, `/usr/share/fonts/truetype/liberation/`
+- macOS: `~/Library/Fonts/`, `/Library/Fonts/`
+- Windows: `C:/Windows/Fonts/`
+
+Preferred: Poppins (Bold, Medium, Regular, Light) from fonts.google.com  
+Fallback: Liberation Sans (included in most Linux systems)
+
+### Dependencies
+
+```bash
+pip install reportlab
+```
 
 ## Default section structure
 
-Use this structure unless the user asks for a different one:
-- Game Identity / Mantra
-- Design Pillars
+Left column:
 - Genre / Story / Mechanics Summary
-- Features
-- Interface
+- Key Features
+- Interface & Controls
+
+Right column:
 - Art Style
-- Music / Sound
-- Development Roadmap / Launch Criteria
+- Music & Sound
+- Roadmap / Launch Criteria (includes platform, audience, milestones, launch date)
+
+Header band:
+- Game title
+- Identity / Mantra (subtitle)
+- Design Pillars (as pill tags)
 
 ## Process
 
@@ -71,7 +106,7 @@ Keep each section tight.
 
 Guidelines:
 - prefer short bullets over dense paragraphs
-- keep pillars punchy
+- keep pillars punchy (2–4 words each)
 - keep the summary to a compact paragraph
 - keep features to the strongest few, not every idea
 - make roadmap milestones concrete enough to be useful
@@ -83,15 +118,15 @@ If the concept is fuzzy:
 - expose contradictions instead of smoothing them over
 - keep claims grounded in actual mechanics or fantasy
 
-### 4. Build the structured source
-Write a JSON file matching the renderer schema used by `scripts/render_one_page_gdd.py`.
+### 4. Build the structured source JSON
+Write a JSON file matching the renderer schema.
 
 Expected fields:
 - `title`
 - `identity_mantra`
-- `design_pillars` (array)
+- `design_pillars` (array, 2–4 items)
 - `summary`
-- `features` (array)
+- `features` (array, 3–6 items)
 - `interface`
 - `art_style`
 - `music_sound`
@@ -100,24 +135,29 @@ Expected fields:
 - `milestones` (array)
 - `launch_day`
 
+See `references/example-input.json` for a worked example.
+
 ### 5. Render markdown and PDF
-Use:
 
 ```bash
-python scripts/render_one_page_gdd.py --input <json> --md <output.md> --pdf <output.pdf>
+# Install dependency first if needed:
+pip install reportlab
+
+# Render:
+python scripts/render_one_page_gdd.py --input <slug>.json --md <slug>.md --pdf <slug>.pdf
 ```
 
-The renderer is optimized for one-page output. If the content is too long, shorten the copy before rerendering instead of letting the document bloat.
+The renderer auto-discovers fonts. If content is too long, shorten the copy before rerendering — do not try to fit more by cramming.
 
 ### 6. Check fit and trim aggressively
 Before finalizing, verify:
 - the concept is legible at a glance
 - the features list is not overstuffed
-- the PDF still feels like a one-pager
+- the PDF still feels like a one-pager (not wall-to-wall text)
 - the roadmap is realistic enough to be useful
 - the strongest idea is visible immediately
 
-If the PDF looks crowded, shorten the writing. Do not "solve" bad scoping with tiny unreadable text.
+If the PDF looks crowded, shorten the writing. If there is too much whitespace, the document is probably well-scoped — do not pad it.
 
 ## Output expectations
 
@@ -131,8 +171,7 @@ Use a slug based on the game title when naming files.
 ## Response structure
 
 When using this skill, report:
-- where the markdown file was written
-- where the PDF file was written
+- where the JSON, markdown, and PDF files were written
 - any sections that had to be compressed heavily
 - any major ambiguities or contradictions you preserved or surfaced
 
@@ -140,7 +179,7 @@ When using this skill, report:
 
 Read these when useful:
 - `references/source-notes.md` for the distilled source principles and section model
-- `references/example-input.json` for renderer input shape
+- `references/example-input.json` for renderer input shape and field conventions
 
 ## Working principle
 
