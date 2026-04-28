@@ -699,6 +699,20 @@ Pitch-deck review and publishing-readiness feedback.
 
 ---
 
+### 16.5 game-design-one-page-design-doc
+**What it does:**
+Creates a concise one-page game design document and exports it as both markdown and PDF.
+
+**Use it when:**
+- the team needs a compact one-pager instead of a bloated GDD
+- rough game notes need to be compressed into a pitchable, readable concept sheet
+- you want one document that captures identity, pillars, summary, features, interface, style, sound, audience, and milestone framing
+
+**Best for:**
+One-page design communication, compact concept documentation, and pitch-friendly internal summaries.
+
+---
+
 ### 17. design-red-team-audit
 **What it does:**
 Performs an adversarial design pre-mortem that assumes a feature, system, pitch, or roadmap idea fails, then identifies the most credible mechanisms of failure.

@@ -1,0 +1,29 @@
+{
+  "title": "Sky Bastion",
+  "identity_mantra": "A tactical co-op defense game about holding a floating fortress together while fending off impossible weather and worse enemies.",
+  "design_pillars": [
+    "desperate cooperation",
+    "visible escalation",
+    "heroic last stands"
+  ],
+  "summary": "Players defend and maintain a flying fortress while surviving enemy raids and environmental disasters. Short combat-defense phases alternate with urgent repair, positioning, and upgrade decisions that determine whether the bastion survives the next assault.",
+  "features": [
+    "real-time co-op fortress defense",
+    "repair and reroute damaged ship systems",
+    "crew roles with complementary abilities",
+    "storm events that reshape each encounter",
+    "persistent upgrades between missions"
+  ],
+  "interface": "Keyboard/mouse on PC. Players move, aim, repair, activate devices, and issue quick pings. Gamepad support optional after core PC controls are stable.",
+  "art_style": "Stylized painted skies, chunky readable silhouettes, warm ship interiors contrasted against violent storm fronts. Reference feel: Airships, Pyre, and animated adventure concept art.",
+  "music_sound": "Orchestral tension with mechanical creaks, storm pressure, and triumphant swells during survival peaks. Audio should support urgency, teamwork, and relief after successful defense.",
+  "platform": "PC first (Steam)",
+  "audience": "Players who enjoy co-op survival pressure, team roles, and cinematic defense fantasies.",
+  "milestones": [
+    "Core movement, combat, and repair loop playable",
+    "One full mission with escalating storm phases",
+    "Progression and upgrade layer functional",
+    "Polish pass on readability, VFX, and onboarding"
+  ],
+  "launch_day": "TBD"
+}

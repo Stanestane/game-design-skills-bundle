@@ -154,6 +154,9 @@ Design or audit prosocial experiences in session-based multiplayer games using a
 ### game-design-pitch-deck-audit
 Audit a game pitch deck for structure, clarity, dream-versus-proof balance, business-case strength, readability, and publisher-fit.
 
+### game-design-one-page-design-doc
+Create a concise one-page game design document and export it as both markdown and PDF. Best for turning rough game notes into a compact, readable concept sheet that captures identity, pillars, features, interface, art/audio direction, audience, and milestone framing.
+
 ## Creative disruption / unblockers
 
 ### game-design-creative-unblocker
