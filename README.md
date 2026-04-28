@@ -368,6 +368,20 @@ Diagnosing the motivational quality of engagement.
 
 ---
 
+### 3.5 game-design-granular-player-motivation-audit
+**What it does:**
+Audits a game, feature, or system through a granular player motivation taxonomy spanning progress, cognition, immersion, creation, leadership, belonging, competition, and rewards.
+
+**Use it when:**
+- Bartle or broad motivation theory feels too coarse
+- you want to know which detailed motivation segments a design strongly serves, neglects, or quietly repels
+- you need to distinguish between competitive status, strategic leadership, creative authorship, narrative absorption, social belonging, and reward-chasing
+
+**Best for:**
+Segment-level motivation analysis, fine-grained audience-fit diagnosis, and motivation audits with more archetype detail than a simple four-type model.
+
+---
+
 ### 4. game-design-player-need-satisfaction-audit
 **What it does:**
 Audits whether a design satisfies or frustrates autonomy, competence, and relatedness.

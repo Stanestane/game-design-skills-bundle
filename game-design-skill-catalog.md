@@ -37,6 +37,9 @@ Audit whether a design satisfies or denies autonomy, competence, and relatedness
 ### game-design-bartle-archetype-audit
 Audit a feature or system through the lens of Achievers, Explorers, Socializers, and Killers to understand which player archetypes it serves, neglects, or harms.
 
+### game-design-granular-player-motivation-audit
+Audit a game, feature, or system through a more granular player motivation taxonomy to understand which detailed motivation segments it serves, neglects, or quietly repels. Best for cases where Bartle is too coarse and you need distinctions like competitive status versus strategic leadership, creative authorship versus narrative immersion, or belonging versus reward-chasing.
+
 ## Multiplayer / social-system audits
 
 ### game-design-multiplayer-feature-audit
