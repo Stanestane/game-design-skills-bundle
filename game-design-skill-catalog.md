@@ -40,6 +40,9 @@ Audit a feature or system through the lens of Achievers, Explorers, Socializers,
 ### game-design-granular-player-motivation-audit
 Audit a game, feature, or system through a more granular player motivation taxonomy to understand which detailed motivation segments it serves, neglects, or quietly repels. Best for cases where Bartle is too coarse and you need distinctions like competitive status versus strategic leadership, creative authorship versus narrative immersion, or belonging versus reward-chasing.
 
+### game-design-big-five-personality-audit
+Audit a game, feature, or system through the Big Five / OCEAN personality traits to understand what kinds of players feel comfortable with its novelty, structure, social intensity, conflict style, and emotional pressure. Best for exposing hidden personality-fit assumptions and diagnosing whether a design is too ambiguous, maintenance-heavy, socially loud, adversarial, or stressful for parts of the audience.
+
 ## Multiplayer / social-system audits
 
 ### game-design-multiplayer-feature-audit

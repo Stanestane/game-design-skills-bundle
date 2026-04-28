@@ -382,6 +382,20 @@ Segment-level motivation analysis, fine-grained audience-fit diagnosis, and moti
 
 ---
 
+### 3.6 game-design-big-five-personality-audit
+**What it does:**
+Audits a game, feature, or system through the Big Five / OCEAN personality traits: Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism.
+
+**Use it when:**
+- you want a personality-fit lens rather than a motivation or archetype lens
+- you need to understand how much novelty, structure, social intensity, cooperation, or emotional pressure a design assumes
+- you want to know what kinds of players feel naturally comfortable versus overloaded, stressed, or alienated by the experience
+
+**Best for:**
+Personality-style fit diagnosis, emotional-cost analysis, and exposing hidden assumptions about ambiguity, obligation, social loudness, conflict, and punishment tolerance.
+
+---
+
 ### 4. game-design-player-need-satisfaction-audit
 **What it does:**
 Audits whether a design satisfies or frustrates autonomy, competence, and relatedness.
