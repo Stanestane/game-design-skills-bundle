@@ -7,6 +7,9 @@ A quick index of the game design skills currently available in the workspace.
 ### game-design-emotional-canvas
 Define the emotional core, atmosphere, and vibe of a game, feature, event, or theme. Best for emotional identity, moodboards, and tone alignment.
 
+### emotional-canvas-moodboard
+Turn an emotional canvas into a curated visual moodboard with candidate gathering, hard rejection, palette references, clean or annotated board modes, and JPG/HTML output. Best for turning tone direction into actual visual reference boards instead of leaving it as prose.
+
 ## Beginner planning / early production strategy
 
 ### game-dev-first-steps

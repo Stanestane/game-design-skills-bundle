@@ -15,6 +15,7 @@ These skills are designed to be used either:
 - as installed skill folders in an OpenClaw workspace, or
 - as packaged `.skill` files from the `package-skills/` folder.
 
+They also now include `emotional-canvas-moodboard`, a follow-on moodboard skill that turns emotional direction into curated visual boards with candidate-pool gathering, hard rejection, palette-reference support, and clean or annotated JPG/HTML outputs.
 
 They now also include beginner-oriented planning skills for turning rough game concepts into sane first steps, team plans, and budget ranges, plus a project-adjacent collaboration skill for analyzing recurring conflict patterns on software teams.
 
